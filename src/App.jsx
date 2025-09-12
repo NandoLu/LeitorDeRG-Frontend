@@ -16,6 +16,9 @@ function App() {
         <BoxDocuments>
           <Card name="Nome da Pessoa" document="123.123.123-12" />
           <Card name="Nome da Pessoa" document="123.123.123-12" />
+          <Card name="Nome da Pessoa" document="123.123.123-12" />
+          <Card name="Nome da Pessoa" document="123.123.123-12" />
+          <Card name="Nome da Pessoa" document="123.123.123-12" />
         </BoxDocuments>
       </main>
     </div>
