@@ -1,11 +1,10 @@
-const UploadContainer = ({ children }) => {
+const BoxDocuments = ({ children }) => {
   return (
     <div className="bg-gray-800 rounded-2xl shadow-xl p-8 md:p-12 text-white">
       <div className="text-center mb-10">
-        <h1 className="text-3xl md:text-4xl font-bold mb-2">Envie o Documento</h1>
+        <h1 className="text-3xl md:text-4xl font-bold mb-2">Documentos upload</h1>
         <p className="text-base md:text-lg text-gray-300">
-          Utilize esta seção para fazer o upload dos documentos solicitados.
-          Por favor, garanta que os arquivos estejam com boa qualidade e visibilidade.
+          Esta seção é para mostrar os documentos que foram subidos.
         </p>
       </div>
 
@@ -16,4 +15,4 @@ const UploadContainer = ({ children }) => {
   );
 };
 
-export default UploadContainer;
+export default BoxDocuments;
